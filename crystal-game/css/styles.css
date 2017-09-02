@@ -1,12 +1,35 @@
 
+
+@import url('https://fonts.googleapis.com/css?family=Fascinate+Inline|Metrophobic');
+
+
 body {
-background-image: url('http://cdn.wallpapersafari.com/67/82/IiDTE8.jpg');
-color: white;
-margin-left: 400px;
-
-
+    background-image: url('https://i.pinimg.com/736x/57/d3/b6/57d3b653d70d7e8bc957f34a61183a2f--pastel-goth-background-background-images.jpg');
+    color: white;
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Fascinate Inline', cursive;
 }
 
+
+ .instructions-container {
+     font-size: 15px;
+     background-color: black;
+     opacity: .85;
+     border: 1px white solid;
+     color: cyan;
+     text-align:center;
+     margin: auto;
+     font-family: 'Metrophobic', sans-serif;
+ }
+.h1, .score-container {
+    background-color:#7636EF;
+    border: 1px white solid;
+    margin: auto;
+}
 
 .crystal-button {
     background-color: transparent;
@@ -18,7 +41,6 @@ margin-left: 400px;
     border: none;
     padding: 10px;
 }
-
 
 .crystal-button-1 {
     background-image: url('../media/images/blue-crystal.png');
@@ -34,4 +56,16 @@ margin-left: 400px;
 
 .crystal-button-4 {
     background-image: url('../media/images/red-crystal.png');
+}
+
+.score {
+    font-size: 70px;
+}
+
+.main {
+    background-color: white;
+    color: black;
+    padding: 55px;
+    margin: 0px;
+    border: 1px black solid;
 }
