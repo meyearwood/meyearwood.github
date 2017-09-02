@@ -1,0 +1,37 @@
+
+body {
+background-image: url('http://cdn.wallpapersafari.com/67/82/IiDTE8.jpg');
+color: white;
+margin-left: 400px;
+
+
+}
+
+
+.crystal-button {
+    background-color: transparent;
+    width: 50px;
+    height: 100px;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    border: none;
+    padding: 10px;
+}
+
+
+.crystal-button-1 {
+    background-image: url('../media/images/blue-crystal.png');
+}
+
+.crystal-button-2 {
+    background-image: url('../media/images/green-crystal.png');
+}
+
+.crystal-button-3 {
+    background-image: url('../media/images/purple-crystal.png');
+}
+
+.crystal-button-4 {
+    background-image: url('../media/images/red-crystal.png');
+}
