@@ -27,6 +27,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     function setupGame() {
+        crystalValues = [];
         setupButtons();
         randomNum = generateRandomNum(19, 120);
         score = 0;
@@ -48,7 +49,21 @@ document.addEventListener('DOMContentLoaded', function() {
     function generateCrystalNum() {
         var crystalNum = generateRandomNum(1, 12);
 
+        // if (crystalValues.indexOf(crystalNum) > -1) {
+        //     console.log('Ooops! I already exist, call myself again to get a new number!');
+        //     generateCrystalNum();
+        // } else {
+        //     crystalValues.push(crystalNum);
+        //
+        //     return crystalNum;
+        // }
+
         do {
+            // This will loop until the crystalValues.indexOf
+            // check returns -1. This indicates the randomly
+            // generated number assigned to crystalNum
+            // does not exist in the array.
+            console.log('executing do-while loop...');
             crystalNum = generateRandomNum(1, 12);
         } while (crystalValues.indexOf(crystalNum) !== -1);
 
